@@ -71,9 +71,11 @@ main{
 .phone:hover{
     color: #c6d433;
 }
+
 .footer-wrapper {
   width: 1020px;
 }
+
 footer {
   display: flex;
   justify-content: center;
