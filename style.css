@@ -7,6 +7,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
+  width: 100%;
 }
 .content {
   flex: 1 0 auto;
@@ -26,6 +27,7 @@ header {
   justify-content: space-between;
   align-items: center;
   color: white;
+  padding: 20px;
 }
 .header-wrapper a {
   text-decoration: none;
@@ -74,6 +76,7 @@ main{
 
 .footer-wrapper {
   width: 1020px;
+  padding: 20px;
 }
 
 footer {
@@ -91,4 +94,16 @@ footer {
   justify-content: center;
   flex-direction: column;
   /* margin-top: 100px; */
+}
+
+/* ! MEDIA */
+@media (orientation: portrait){
+  .header-wrapper{
+    padding: 20px;
+    /* background-color: red; */
+  }
+.footer-wrapper{
+  padding: 20px;
+}
+
 }
