@@ -1,7 +1,7 @@
 html,
 body {
   height: 100%;
-  font-family: "Lato", Arial, "sans-serif";
+  font-family: Lato, Arial, "sans-serif";
 }
 .wrapper {
   display: flex;
@@ -19,6 +19,14 @@ header {
   background-color: #2d303a;
   display: flex;
   justify-content: center;
+}
+main{
+  
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100vw;
+  height: 50vh;
 }
 
 .header-wrapper {
